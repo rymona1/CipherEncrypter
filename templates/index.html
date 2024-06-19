@@ -41,8 +41,10 @@
                 <label for="encryptedText">Encrypted Text:</label>
                 <textarea id="encryptedText" name="encryptedText" readonly></textarea>
             </div>
-            <button type="submit">Encrypt</button>
-            <button type="button" id="clearButton">Clear</button>
+            <div class="form-buttons">
+                <button type="submit">Encrypt</button>
+                <button type="button" id="clearButton">Clear</button>
+            </div>
         </form>
     </div>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
