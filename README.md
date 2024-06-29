@@ -1,5 +1,3 @@
-Here is the revised format for the README:
-
 # Cipher Encrypter
 
 ## Overview
